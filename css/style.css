@@ -8903,7 +8903,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -8971,8 +8971,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
-  border-color: rgba(0, 0, 0, 0.5) !important;
+  color: white !important;
+  border-color: white !important;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 16px;
@@ -10625,10 +10625,21 @@ textarea.form-control {
     width: 65px;
     top: 15px;
   }
+  .progress-wrap h3 {
+    font-size: 16px;
+    width: 75%;
+  }
+  .progress-bar span{
+    font-size: 16px;
+    top:-30px;
+  }
 }
 
 @media (max-width: 425px) {
+  .resume-wrap{
+    padding: 85px 30px 30px;
+  }
   .resume-wrap img{
-    display: none;
+    left: 30px;
   }
 }
